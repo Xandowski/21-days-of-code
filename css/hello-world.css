@@ -3,21 +3,37 @@
   src: url(/assets/fonts/supernatural_knight/supernatural_knight-webfont.woff) format("woff");
 }
 
-.project_02 {
+html {
+  height: 100vh;
+}
+
+.project-02 {
+  height: 100vh;
   font-family: 'Supernatural Knight', cursive;
   color: #90121A;
   background-color: #202024;
   text-align: center;
   height: 100vh;
   background-image: url(/assets/images/jr-korpa-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.project_02 h1 {
+.project-02 h1 {
   position: absolute;
   font-size: 3rem;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  transition: font-size 2s ease-in-out 0.5s;
-  font-size: 6rem;
+  animation: fadein 1.2s ease-in 0s 1 both;
+}
+
+@keyframes fadein {
+  from {
+    font-size: 3rem
+  }
+
+  to {
+    font-size: 7rem
+  }
 }
