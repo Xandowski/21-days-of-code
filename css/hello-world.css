@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Supernatural Knight";
+  src: url(/assets/fonts/supernatural_knight/supernatural_knight-webfont.woff) format("woff");
+}
+
+.project_02 {
+  font-family: 'Supernatural Knight', cursive;
+  color: #90121A;
+  background-color: #202024;
+  text-align: center;
+  height: 100vh;
+  background-image: url(/assets/images/jr-korpa-unsplash.jpg);
+}
+
+.project_02 h1 {
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: font-size 2s ease-in-out 0.5s;
+  font-size: 6rem;
+}
