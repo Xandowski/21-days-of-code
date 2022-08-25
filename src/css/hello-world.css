@@ -14,7 +14,7 @@ html {
   background-color: #202024;
   text-align: center;
   height: 100vh;
-  background-image: url(/assets/images/jr-korpa-unsplash.jpg);
+  background-image: url(/src/assets/images/jr-korpa-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
