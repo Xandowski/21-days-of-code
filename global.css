@@ -1,0 +1,108 @@
+@import url(css/hello-world.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  background-color: #0D0630;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: #E6F9AF;
+}
+
+.title .code {
+  color: #384E77;
+}
+
+.title .code span {
+  color: #1EA494;
+}
+
+
+.cards {
+  width: 80vw;
+  max-width: 80vw;
+  margin-top: 7.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.cards .card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.card {
+  width: 286px;
+  height: 310px;
+  background: linear-gradient(162.49deg, rgba(24, 49, 79, 0.4) 8.17%, rgba(24, 49, 79, 0.1) 89.48%);
+  backdrop-filter: blur(40px);
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+  transition: transform 0.3s ease-in 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .challenge-id {
+  position: absolute;
+  font-size: 2rem;
+  color: #E6F9AF;
+  font-weight: bold;
+  right: 4px;
+}
+
+.card .project-info {
+  margin-top: 4.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .project-info h2 {
+  font-size: 1.5rem;
+}
+
+.card .description {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.view-btn {
+  border: 2px solid #E6F9AF;
+  padding: 0.5rem 1.875rem;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.view-btn:hover {
+  background-color: #E6F9AF;
+  color: #0D0630;
+
+}
