@@ -37,3 +37,20 @@ html {
     font-size: 7rem
   }
 }
+
+
+.back-btn {
+  position: absolute;
+  font-weight: bold;
+  font-size: 7rem;
+  left: 40px;
+  color: #0D0630;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-btn span {
+  font-size: 2rem;
+  margin-left: 20px;
+}
