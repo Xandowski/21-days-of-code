@@ -1,6 +1,6 @@
 <div align="center">
 
-![](/assets/images/21-days-of-code.png)
+![](/src/assets/images/21-days-of-code.png)
 
 <p>
 
@@ -13,7 +13,7 @@
 
 </div>
 
-![](/assets/images/capa.png)
+![](/src/assets/images/capa.png)
 
 <hr/>
 
