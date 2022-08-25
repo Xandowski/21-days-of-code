@@ -4,9 +4,9 @@
 
 <p>
 
-[Challenges link part 1.]('https://www.instagram.com/p/ChTBg1BpLGU/')
+[Challenges link part 1.](https://www.instagram.com/p/ChTBg1BpLGU/)
 
-[Challenges link part 2.]('https://www.instagram.com/p/ChkahuNOLvF/')
+[Challenges link part 2.](https://www.instagram.com/p/ChkahuNOLvF/)
 
 
 </p>
