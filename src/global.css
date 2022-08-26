@@ -1,4 +1,14 @@
 @import url(css/hello-world.css);
+@import url(css/animated-button.css);
+
+:root {
+  --body-bg: #0D0630;
+  --primary: #18314F;
+  --primary-variant: #081D36;
+  --secondary: #E6F9AF;
+  --secondary-variant: #C8F152;
+  --text-color: #fff;
+}
 
 * {
   padding: 0;
@@ -16,7 +26,7 @@ a {
 }
 
 .wrapper {
-  background-color: #0D0630;
+  background-color: var(--body-bg);
   font-family: 'Noto Sans', sans-serif;
   display: flex;
   flex-direction: column;
@@ -25,15 +35,15 @@ a {
 
 .title {
   font-size: 3.5rem;
-  color: #E6F9AF;
+  color: var(--secondary);
 }
 
 .title .code {
-  color: #384E77;
+  color: var(--primary);
 }
 
 .title .code span {
-  color: #1EA494;
+  color: var(--secondary-variant);
 }
 
 
@@ -53,10 +63,10 @@ a {
 .card {
   width: 286px;
   height: 310px;
-  background: linear-gradient(162.49deg, rgba(24, 49, 79, 0.4) 8.17%, rgba(24, 49, 79, 0.1) 89.48%);
+  background: var(--primary);
   backdrop-filter: blur(40px);
   border-radius: 8px;
-  color: white;
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,7 +82,7 @@ a {
 .card .challenge-id {
   position: absolute;
   font-size: 2rem;
-  color: #E6F9AF;
+  color: var(--secondary-variant);
   font-weight: bold;
   right: 4px;
 }
@@ -94,15 +104,15 @@ a {
 }
 
 .view-btn {
-  border: 2px solid #E6F9AF;
+  border: 2px solid var(--secondary-variant);
   padding: 0.5rem 1.875rem;
-  color: white;
+  color: var(--text-color);
   border-radius: 8px;
   font-weight: bold;
 }
 
 .view-btn:hover {
-  background-color: #E6F9AF;
-  color: #0D0630;
+  background-color: var(--secondary-variant);
+  color: var(--body-bg);
 
 }
