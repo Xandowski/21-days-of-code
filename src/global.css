@@ -75,16 +75,25 @@ a {
   transition: transform 0.3s ease-in 0.2s;
 }
 
+._card {
+  background: var(--secondary-variant);
+  color: var(--primary);
+}
+
 .card:hover {
   transform: scale(1.1);
 }
 
-.card .challenge-id {
+.challenge-id {
   position: absolute;
   font-size: 2rem;
   color: var(--secondary-variant);
   font-weight: bold;
   right: 4px;
+}
+
+._challenge-id {
+  color: var(--body-bg);
 }
 
 .card .project-info {
@@ -114,5 +123,4 @@ a {
 .view-btn:hover {
   background-color: var(--secondary-variant);
   color: var(--body-bg);
-
 }

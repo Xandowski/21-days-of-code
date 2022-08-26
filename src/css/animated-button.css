@@ -1,0 +1,44 @@
+.switch-theme-btn {
+  position: relative;
+  width: 103px;
+  height: 42px;
+  background-color: var(--primary-variant);
+  border: 2px solid var(--secondary-variant);
+  padding: 0.5rem 1.875rem;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+  transition: .3s ease all;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  background-color: var(--secondary);
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40px;
+  border-radius: 50%;
+  transition: .3s ease-out all;
+}
+
+._circle {
+  position: absolute;
+  background-color: var(--primary);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 40px;
+  border-radius: 50%;
+  transition: .3s ease-out all;
+}
+
+
+._switch-theme-btn {
+  background-color: var(--secondary);
+  border: 2px solid var(--body-bg);
+  color: var(--primary);
+}
