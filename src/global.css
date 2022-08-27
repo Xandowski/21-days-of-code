@@ -1,6 +1,7 @@
 @import url(css/hello-world.css);
 @import url(css/animated-button.css);
 @import url(css/calculator.css);
+@import url(css/page-not-found.css);
 
 :root {
   --body-bg: #0D0630;
@@ -47,12 +48,12 @@ a {
   color: var(--secondary-variant);
 }
 
-
 .cards {
-  width: 80vw;
-  max-width: 80vw;
+  width: 1550px;
+  max-width: 1550px;
   margin-top: 7.75rem;
   display: flex;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
   flex-flow: row wrap;
 }
@@ -72,7 +73,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1.5rem;
+  /* padding: 0.5rem 1.5rem; */
   transition: transform 0.3s ease-in 0.2s;
 }
 

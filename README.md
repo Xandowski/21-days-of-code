@@ -30,3 +30,4 @@ Repository for the 21 days of code challenge, promoted by rocketseat.
 * [x] 02 - Hello World
 * [x] 03 - Animated Button
 * [x] 04 - Calculator
+* [x] 05 - 404 Page

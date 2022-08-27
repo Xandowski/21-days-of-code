@@ -1,0 +1,17 @@
+.error-img {
+  margin: 255px 0 118px 0;
+}
+
+.back-btn {
+  color: var(--secondary);
+}
+
+.text {
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: var(--secondary);
+}
+
+.text .code {
+  color: var(--primary);
+}
