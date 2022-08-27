@@ -28,4 +28,5 @@ Repository for the 21 days of code challenge, promoted by rocketseat.
 ## Challenges
 * [x] 01 - Create the repository
 * [x] 02 - Hello World
-* [ ] 03 - Animated Button
+* [x] 03 - Animated Button
+* [x] 04 - Calculator
