@@ -10,7 +10,7 @@
   font-weight: bold;
   font-size: 1rem;
   font-family: 'Noto Sans', sans-serif;
-  transition: .3s ease all;
+  transition: .8s ease all;
   cursor: pointer;
 }
 
@@ -22,20 +22,38 @@
   height: 100%;
   width: 40px;
   border-radius: 50%;
-  transition: .3s ease-out all;
+  animation: slidecircleright 1s forwards;
+}
+
+@keyframes slidecircleright {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 60%;
+  }
+}
+
+
+@keyframes slidecircleleft {
+  from {
+    left: 60%;
+  }
+
+  to {
+    left: 0;
+  }
 }
 
 ._circle {
   position: absolute;
   background-color: var(--primary);
-  top: 0;
-  left: 0;
   height: 100%;
   width: 40px;
   border-radius: 50%;
-  transition: .3s ease-out all;
+  animation: slidecircleleft 1s forwards;
 }
-
 
 ._switch-theme-btn {
   background-color: var(--secondary);
