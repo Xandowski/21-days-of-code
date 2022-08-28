@@ -58,6 +58,13 @@ a {
   flex-flow: row wrap;
 }
 
+.card footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .cards .card:not(:last-child) {
   margin-right: 30px;
 }
@@ -69,16 +76,17 @@ a {
   backdrop-filter: blur(40px);
   border-radius: 8px;
   color: var(--text-color);
+  padding: 13px 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0.5rem 1.5rem; */
-  transition: transform 0.3s ease-in 0.2s;
+  transition: .8s ease all;
 }
 
 ._card {
   background: var(--secondary-variant);
+  transition: .8s ease all;
   color: var(--primary);
 }
 
@@ -91,7 +99,8 @@ a {
   font-size: 2rem;
   color: var(--secondary-variant);
   font-weight: bold;
-  right: 4px;
+  right: 22px;
+  top: 8px;
 }
 
 ._challenge-id {
@@ -112,6 +121,12 @@ a {
 .card .description {
   font-size: 1.3rem;
   margin-top: 20px;
+}
+
+.stack {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
 }
 
 .view-btn {
