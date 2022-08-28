@@ -22,7 +22,6 @@
   height: 100%;
   width: 40px;
   border-radius: 50%;
-  animation: slidecircleright 1s forwards;
 }
 
 @keyframes slidecircleright {
@@ -44,6 +43,10 @@
   to {
     left: 0;
   }
+}
+
+._circle-right {
+  animation: slidecircleright 1s forwards;
 }
 
 ._circle {

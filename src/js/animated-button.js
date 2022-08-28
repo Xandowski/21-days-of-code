@@ -7,7 +7,16 @@ const switchTheme = () => {
   themeSwitchBtn.classList.toggle('_switch-theme-btn')
   card.classList.toggle('_card')
   challengeId.classList.toggle('_challenge-id')
-  circle.classList.toggle('_circle')
+
+  if (circle.classList.contains('_circle-right')) {
+    circle.classList.toggle('_circle')
+    circle.classList.remove('_circle-right')
+  } else if (circle.classList.contains('_circle')) {
+    circle.classList.toggle('_circle-right')
+    circle.classList.remove('_circle')
+  } else {
+    circle.classList.toggle('_circle')
+  }
 }
 
 themeSwitchBtn.addEventListener('click', switchTheme, false)
