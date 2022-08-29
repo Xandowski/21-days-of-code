@@ -2,6 +2,7 @@
 @import url(css/animated-button.css);
 @import url(css/calculator.css);
 @import url(css/page-not-found.css);
+@import url(css/glassmorphism.css);
 
 :root {
   --body-bg: #0D0630;
@@ -102,18 +103,18 @@ a {
   color: var(--body-bg);
 }
 
-.card .project-info {
+.project-info {
   margin-top: 4.625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.card .project-info h2 {
+.project-info h2 {
   font-size: 1.5rem;
 }
 
-.card .description {
+.description {
   font-size: 1.3rem;
   margin-top: 20px;
 }
