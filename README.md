@@ -31,3 +31,9 @@ Repository for the 21 days of code challenge, promoted by rocketseat.
 * [x] 03 - Animated Button
 * [x] 04 - Calculator
 * [x] 05 - 404 Page
+* [x] 06 - Glassmorphism
+* [x] 07 - Counter
+
+## Extra Challenges
+* [x] - Show the stack used of each challenge
+* [ ] - Migrate the project to React

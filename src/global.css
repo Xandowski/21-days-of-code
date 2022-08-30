@@ -3,6 +3,7 @@
 @import url(css/calculator.css);
 @import url(css/page-not-found.css);
 @import url(css/glassmorphism.css);
+@import url(css/counter.css);
 
 :root {
   --body-bg: #0D0630;

@@ -1,0 +1,32 @@
+.counter-btn {
+  border: none;
+  font-size: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  color: var(--secondary);
+  background-color: var(--body-bg);
+  padding: 0.5rem 0.625rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.start {
+  background-color: var(--secondary-variant);
+  color: var(--body-bg);
+}
+
+.timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 1.1rem;
+  width: 50px;
+  display: none;
+  color: var(--text-color);
+}
+
+._timer {
+  display: inline-block;
+}
