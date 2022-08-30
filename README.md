@@ -1,6 +1,6 @@
 <div align="center">
 
-![](/src/assets/images/21-days-of-code.png)
+![](/src/assets/images/21-days-of-code.svg)
 
 [<img src="src/assets/images/deploy.svg">](https://xandowski-21-days-of-code.netlify.app/)
 
