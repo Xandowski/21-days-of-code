@@ -37,3 +37,4 @@ Repository for the 21 days of code challenge, promoted by rocketseat.
 ## Extra Challenges
 * [x] - Show the stack used of each challenge
 * [ ] - Migrate the project to React
+* [ ] - Make responsive
