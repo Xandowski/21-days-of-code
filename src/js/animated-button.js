@@ -1,12 +1,8 @@
-const themeSwitchBtn = document.querySelector('[data-js="switch-theme-btn"]')
-const card = document.querySelector('[data-js="card-03"]')
-const challengeId = document.querySelector('[data-js="challenge-id"]')
+const animateBtn = document.querySelector('[data-js="animate-btn"]')
 const circle = document.querySelector('[data-js="circle"]')
 
-const switchTheme = () => {
-  themeSwitchBtn.classList.toggle('_switch-theme-btn')
-  card.classList.toggle('_card')
-  challengeId.classList.toggle('_challenge-id')
+const animate = () => {
+  animateBtn.classList.toggle('_animate')
 
   if (circle.classList.contains('_circle-right')) {
     circle.classList.toggle('_circle')
@@ -19,4 +15,4 @@ const switchTheme = () => {
   }
 }
 
-themeSwitchBtn.addEventListener('click', switchTheme, false)
+animateBtn.addEventListener('click', animate, false)

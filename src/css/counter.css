@@ -4,15 +4,15 @@
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   color: var(--secondary);
-  background-color: var(--body-bg);
+  background-color: var(--primary-variant);
   padding: 0.5rem 0.625rem;
   cursor: pointer;
   border-radius: 4px;
 }
 
 .start {
-  background-color: var(--secondary-variant);
-  color: var(--body-bg);
+  background-color: var(--secondary);
+  color: var(--primary-variant);
 }
 
 .timer {

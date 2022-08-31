@@ -1,0 +1,31 @@
+.theme-switch-btn {
+  position: relative;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+  transition: .8s ease all;
+  cursor: pointer;
+}
+
+.sun {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.moon {
+  display: none;
+}
+
+._moon {
+  display: inline-block;
+  ;
+}
+
+._sun {
+  display: none;
+}

@@ -1,4 +1,4 @@
-.switch-theme-btn {
+.animate-btn {
   position: relative;
   width: 103px;
   height: 42px;
@@ -58,7 +58,7 @@
   animation: slidecircleleft 1s forwards;
 }
 
-._switch-theme-btn {
+._animate {
   background-color: var(--secondary);
   border: 2px solid var(--body-bg);
   color: var(--primary);

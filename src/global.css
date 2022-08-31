@@ -4,14 +4,26 @@
 @import url(css/page-not-found.css);
 @import url(css/glassmorphism.css);
 @import url(css/counter.css);
+@import url(css/theme-switch.css);
 
 :root {
   --body-bg: #0D0630;
   --primary: #18314F;
   --primary-variant: #081D36;
-  --secondary: #E6F9AF;
-  --secondary-variant: #C8F152;
-  --text-color: #fff;
+  --secondary: #C8F152;
+  --secondary-variant: #D6EF8C;
+  --text-color: #F0FFC5;
+  --text-code-primary: #1EA494;
+  --text-code-secondary: #494F57;
+}
+
+.light_mode {
+  --body-bg: #E6F9AF;
+  --primary: #C8F152;
+  --primary-variant: #D6EF8C;
+  --secondary: #081D36;
+  --secondary-variant: #18314F;
+  --text-color: #0D0630;
 }
 
 * {
@@ -43,11 +55,11 @@ a {
 }
 
 .title .code {
-  color: var(--primary);
+  color: var(--text-code-secondary);
 }
 
 .title .code span {
-  color: var(--secondary-variant);
+  color: var(--text-code-primary);
 }
 
 .cards {
@@ -81,12 +93,6 @@ a {
   transition: background-color .8s ease, transform .8s ease;
 }
 
-._card {
-  background-color: var(--secondary-variant);
-  transition: background-color .8s ease;
-  color: var(--primary);
-}
-
 .card:hover {
   transform: scale(1.1);
 }
@@ -94,14 +100,10 @@ a {
 .challenge-id {
   position: absolute;
   font-size: 2rem;
-  color: var(--secondary-variant);
+  color: var(--secondary);
   font-weight: bold;
   right: 22px;
   top: 8px;
-}
-
-._challenge-id {
-  color: var(--body-bg);
 }
 
 .project-info {
@@ -127,7 +129,7 @@ a {
 }
 
 .view-btn {
-  border: 2px solid var(--secondary-variant);
+  border: 2px solid var(--secondary);
   padding: 0.5rem 1.875rem;
   color: var(--text-color);
   border-radius: 8px;
@@ -135,6 +137,6 @@ a {
 }
 
 .view-btn:hover {
-  background-color: var(--secondary-variant);
+  background-color: var(--secondary);
   color: var(--body-bg);
 }
