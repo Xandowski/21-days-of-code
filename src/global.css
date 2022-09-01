@@ -5,6 +5,7 @@
 @import url(css/glassmorphism.css);
 @import url(css/counter.css);
 @import url(css/theme-switch.css);
+@import url(css/loading.css);
 
 :root {
   --body-bg: #0D0630;
@@ -108,10 +109,14 @@ a {
 
 .project-info {
   margin-top: 4.625rem;
-  display: flex;
   flex-direction: column;
+  display: flex;
   align-items: center;
 }
+
+/* .project-info-display {
+  display: flex;
+} */
 
 .project-info h2 {
   font-size: 1.5rem;
@@ -139,4 +144,8 @@ a {
 .view-btn:hover {
   background-color: var(--secondary);
   color: var(--body-bg);
+}
+
+button {
+  cursor: pointer;
 }
