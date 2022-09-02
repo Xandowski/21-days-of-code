@@ -6,6 +6,7 @@
 @import url(css/counter.css);
 @import url(css/theme-switch.css);
 @import url(css/loading.css);
+@import url(css/particle.css);
 
 :root {
   --body-bg: #0D0630;
@@ -40,6 +41,11 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  font-family: 'Noto sans', sans-serif;
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -113,10 +119,6 @@ a {
   display: flex;
   align-items: center;
 }
-
-/* .project-info-display {
-  display: flex;
-} */
 
 .project-info h2 {
   font-size: 1.5rem;
