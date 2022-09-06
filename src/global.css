@@ -7,6 +7,7 @@
 @import url(css/theme-switch.css);
 @import url(css/loading.css);
 @import url(css/particle.css);
+@import url(css/form-login.css);
 
 :root {
   --body-bg: #0D0630;
@@ -34,10 +35,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100vh;
-}
 
 a {
   text-decoration: none;

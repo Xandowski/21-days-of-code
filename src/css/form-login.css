@@ -1,0 +1,109 @@
+.btn-11 {
+  background: transparent;
+}
+
+.wrapper {
+  position: relative;
+  transition: opacity 200ms ease-in;
+  pointer-events: auto;
+}
+
+._body {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.modal {
+  position: fixed;
+  visibility: hidden;
+  padding-top: 30px;
+  left: 50vw;
+  top: 50vh;
+  z-index: 99999;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 460px;
+  background: var(--text-code-secondary);
+  transition: opacity 200ms ease-in;
+  box-shadow: 0px 0px 10px 5px #494f57c0;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.close-modal {
+  position: absolute;
+  transform: translate(50%, calc(-50% - 30px));
+  right: 0;
+  border: none;
+  background: var(--secondary);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: var(--primary);
+  font-weight: bold;
+  opacity: 1;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.form input {
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+ 
+ .form {
+  width: 20vw;
+}
+ 
+ .btn-form-login {
+  cursor: pointer;
+  color: var(--body-bg);
+  background-color: var(--secondary-variant);
+  transition: background-color 0.3s ease-in;
+}
+
+.btn-form-login:hover {
+ background-color: var(--text-color); 
+}
+ 
+ .checkbox {
+  display: flex;
+  align-items: center;
+}
+ 
+ .links {
+  width: 20vw;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondary);
+}
+
+.links a {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.links input[type=checkbox] {
+  margin-right: 5px;
+}
+
+.login-input {
+  background: var(--text-color);
+}

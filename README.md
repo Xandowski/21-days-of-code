@@ -36,6 +36,9 @@ Repository for the 21 days of code challenge, promoted by rocketseat.
 - [x] 08 - Theme Swithcer
 - [x] 09 - Loading
 - [x] 10 - ParticleJS
+- [x] 11 - Form login
+- [ ] 12 - Gallery images
+- [ ] 13 - Responsive menu
 
 ## Extra Challenges
 
