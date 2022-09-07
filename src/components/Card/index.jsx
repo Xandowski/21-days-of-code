@@ -16,9 +16,9 @@ export function Card({challengeId, challengeTitle, challengeDescription, challen
 
       <footer className={styles.cardFooter}>
         <div className="stack">
-          {challengeStack.map((tool) => {
+          {challengeStack.map((tool, index) => {
             return (
-              <img src={`/src/assets/images/stack/${tool}.svg`} alt={`${tool} logo`}/>
+              <img key={index} src={`/src/assets/images/stack/${tool}.svg`} alt={`${tool} logo`}/>
             )
           })}
         </div>
