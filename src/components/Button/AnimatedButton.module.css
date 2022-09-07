@@ -45,21 +45,14 @@
   }
 }
 
-._circle-right {
+._circleRight {
   animation: slidecircleright 1s forwards;
 }
 
 ._circle {
   position: absolute;
-  background-color: var(--primary);
   height: 100%;
   width: 40px;
   border-radius: 50%;
   animation: slidecircleleft 1s forwards;
-}
-
-._animate {
-  background-color: var(--secondary);
-  border: 2px solid var(--body-bg);
-  color: var(--primary);
 }
