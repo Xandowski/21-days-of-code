@@ -1,13 +1,9 @@
-@import url(css/hello-world.css);
-@import url(css/animated-button.css);
-@import url(css/calculator.css);
-@import url(css/page-not-found.css);
-@import url(css/glassmorphism.css);
-@import url(css/counter.css);
-@import url(css/theme-switch.css);
-@import url(css/loading.css);
-@import url(css/particle.css);
-@import url(css/form-login.css);
+@import url(assets/css/calculator.css);
+@import url(assets/css/page-not-found.css);
+@import url(assets/css/glassmorphism.css);
+@import url(assets/css/counter.css);
+@import url(assets/css/loading.css);
+@import url(assets/css/form-login.css);
 
 :root {
   --body-bg: #0D0630;
@@ -43,36 +39,23 @@ a {
 button {
   font-family: 'Noto sans', sans-serif;
   font-size: 1rem;
+  cursor: pointer;
 }
 
-.wrapper {
-  background-color: var(--body-bg);
+body {
+  background: var(--body-bg);
+}
+
+body, input, textarea, button {
   font-family: 'Noto Sans', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.title {
-  font-size: 3.5rem;
-  color: var(--secondary);
+h2 {
+  font-size: 1.5rem;
 }
 
-.title .code {
-  color: var(--text-code-secondary);
-}
-
-.title .code span {
-  color: var(--text-code-primary);
-}
-
-.cards {
-  width: 1550px;
-  max-width: 1550px;
-  margin-top: 7.75rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+p {
+  font-size: 1.3rem;
 }
 
 .card footer {
@@ -80,50 +63,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.card {
-  width: 286px;
-  height: 310px;
-  background-color: var(--primary);
-  backdrop-filter: blur(40px);
-  border-radius: 8px;
-  color: var(--text-color);
-  padding: 13px 22px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  transition: background-color .8s ease, transform .8s ease;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.challenge-id {
-  position: absolute;
-  font-size: 2rem;
-  color: var(--secondary);
-  font-weight: bold;
-  right: 22px;
-  top: 8px;
-}
-
-.project-info {
-  margin-top: 4.625rem;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
-
-.project-info h2 {
-  font-size: 1.5rem;
-}
-
-.description {
-  font-size: 1.3rem;
-  margin-top: 20px;
 }
 
 .stack {
@@ -143,8 +82,4 @@ button {
 .view-btn:hover {
   background-color: var(--secondary);
   color: var(--body-bg);
-}
-
-button {
-  cursor: pointer;
 }

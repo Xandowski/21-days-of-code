@@ -1,0 +1,40 @@
+{
+  "challenges": [
+    {
+      "challengeId": "#01",
+      "challengeTitle": "Github Project",
+      "challengeDescription": "Create a repo to list the challenges.",
+      "challengeStack": [
+        "git", "github"
+      ],
+      "link": "https://github.com/Xandowski/21-days-of-code"
+    },
+    {
+      "challengeId": "#02",
+      "challengeTitle": "Hello World",
+      "challengeDescription": "Create a hello world with custom fonts,images or colors.",
+      "challengeStack": [
+        "html5", "css3"
+      ],
+      "link" : "helloworld"
+    },
+    {
+      "challengeId": "#03",
+      "challengeTitle": "Animated",
+      "challengeDescription": "Create a custom animated button.",
+      "challengeStack": [
+        "html5", "css3", "js"
+      ],
+      "button": "animated"
+    },
+    {
+      "challengeId": "#08",
+      "challengeTitle": "Theme Switcher",
+      "challengeDescription": "Create a theme switch button.",
+      "challengeStack": [
+        "html5", "css3", "js"
+      ],
+      "button": "switch"
+    }
+  ]
+}

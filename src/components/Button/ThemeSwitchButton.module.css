@@ -1,4 +1,4 @@
-.theme-switch-btn {
+.themeSwitchBtn {
   position: relative;
   border: none;
   width: 30px;
@@ -6,7 +6,6 @@
   background-color: transparent;
   font-weight: bold;
   font-size: 1rem;
-  font-family: 'Noto Sans', sans-serif;
   transition: .8s ease all;
   cursor: pointer;
 }

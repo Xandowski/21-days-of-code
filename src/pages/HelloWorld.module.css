@@ -1,31 +1,42 @@
 @font-face {
   font-family: "Supernatural Knight";
-  src: url(/assets/fonts/supernatural_knight/supernatural_knight-webfont.woff) format("woff");
+  src: url(/src/assets/fonts/supernatural_knight/supernatural_knight-webfont.woff) format("woff");
 }
 
-html {
-  height: 100vh;
-}
-
-.project-02 {
-  height: 100vh;
+.wrapperHelloWorld {
   font-family: 'Supernatural Knight', cursive;
-  color: #90121A;
-  background-color: #202024;
+  /* background-color: #202024; */
   text-align: center;
   height: 100vh;
-  background-image: url(/assets/images/jr-korpa-unsplash.jpg);
+  background-image: url(/src/assets/images/jr-korpa-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.project-02 h1 {
+.title {
   position: absolute;
+  color: #90121A;
   font-size: 3rem;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   animation: fadein 1.2s ease-in 0s 1 both;
+}
+
+.backBtn {
+  position: absolute;
+  font-weight: bold;
+  font-size: 7rem;
+  left: 40px;
+  color: #0D0630;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backBtn .text {
+  font-size: 2rem;
+  margin-left: 20px;
 }
 
 @keyframes fadein {
@@ -39,18 +50,4 @@ html {
 }
 
 
-.back-btn {
-  position: absolute;
-  font-weight: bold;
-  font-size: 7rem;
-  left: 40px;
-  color: #0D0630;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-btn span {
-  font-size: 2rem;
-  margin-left: 20px;
-}

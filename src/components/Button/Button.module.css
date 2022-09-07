@@ -1,0 +1,12 @@
+.link,
+.btn {
+  border: 2px solid var(--secondary);
+  padding: 0.5rem 1.875rem;
+  color: var(--text-color);
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: transparent;
+}

@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: var(--secondary);
+}
+
+.code {
+  color: var(--text-code-secondary);
+}
+
+.code span {
+  color: var(--text-code-primary);
+}
