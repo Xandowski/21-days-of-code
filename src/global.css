@@ -16,7 +16,7 @@
   --text-code-secondary: #494F57;
 }
 
-.light_mode {
+[data-theme='light'] {
   --body-bg: #E6F9AF;
   --primary: #C8F152;
   --primary-variant: #D6EF8C;
