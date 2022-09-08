@@ -2,6 +2,11 @@ import styles from './Card.module.css'
 import { Button } from '../Button'
 import { AnimatedButton } from '../Button/AnimatedButton'
 import { ThemeSwitchButton } from '../Button/ThemeSwitchButton'
+import HTMLLOGO from '../../assets/images/stack/html5.svg'
+import CSSLOGO from '../../assets/images/stack/css3.svg'
+import JSLOGO from '../../assets/images/stack/js.svg'
+import GITLOGO from '../../assets/images/stack/git.svg'
+import GITHUBLOGO from '../../assets/images/stack/github.svg'
 
 export function Card({challengeId, challengeTitle, challengeDescription, challengeStack, link, button}) {
   return (
@@ -18,7 +23,11 @@ export function Card({challengeId, challengeTitle, challengeDescription, challen
         <div className="stack">
           {challengeStack.map((tool, index) => {
             return (
-              <img key={index} src={`/src/assets/images/stack/${tool}.svg`} alt={`${tool} logo`}/>
+              tool === 'html5' && <img key={index} src={HTMLLOGO} alt={`${tool} logo`}/>
+              || tool === 'css3' && <img key={index} src={CSSLOGO} alt={`${tool} logo`}/>
+              || tool === 'js' && <img key={index} src={JSLOGO} alt={`${tool} logo`}/>
+              || tool === 'git' && <img key={index} src={GITLOGO} alt={`${tool} logo`}/>
+              || tool === 'github' && <img key={index} src={GITHUBLOGO} alt={`${tool} logo`}/>
             )
           })}
         </div>

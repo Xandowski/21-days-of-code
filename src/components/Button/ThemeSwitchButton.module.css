@@ -9,21 +9,3 @@
   transition: .8s ease all;
   cursor: pointer;
 }
-
-.sun {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.moon {
-  display: none;
-}
-
-._moon {
-  display: inline-block;
-}
-
-._sun {
-  display: none;
-}
