@@ -28,6 +28,32 @@
       "button": "animated"
     },
     {
+      "challengeId": "#04",
+      "challengeTitle": "Calculator",
+      "challengeDescription": "Create a calculator.",
+      "challengeStack": [
+        "html5", "css3", "js"
+      ],
+      "link": "calculator"
+    },
+    {
+      "challengeId": "#05",
+      "challengeTitle": "404 Page",
+      "challengeDescription": "Develop a custom 404 page.",
+      "challengeStack": [
+        "html5", "css3", "js"
+      ],
+      "link": "pagenotfound"
+    },
+    {
+      "challengeId": "#06",
+      "challengeTitle": "Glassmorphism",
+      "challengeDescription": "Create a card with glassmorphism effect.",
+      "challengeStack": [
+        "html5", "css3"
+      ]
+    },
+    {
       "challengeId": "#08",
       "challengeTitle": "Theme Switcher",
       "challengeDescription": "Create a theme switch button.",
