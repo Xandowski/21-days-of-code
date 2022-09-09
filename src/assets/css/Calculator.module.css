@@ -1,9 +1,8 @@
-.calculator-wrapper {
-  background-image: url(/assets/images/math-bg.jpg);
+.calculatorWrapper {
+  background-image: url(../images/math-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-  filter: blur(8px);
+  height: 100vh;
 }
 
 .container {
@@ -37,7 +36,7 @@
   font-size: 1rem;
 }
 
-.btn-numbers {
+.btnNumbers {
   color: #E6F9AF;
 }
 
@@ -55,7 +54,7 @@
   align-self: center;
 }
 
-.operations-wrapper {
+.operationsWrapper {
   height: calc(410px - 150px);
   width: 100%;
   display: grid;
@@ -66,7 +65,7 @@
     "numbers math-operators";
 }
 
-.other-operations {
+.otherOperations {
   height: 50px;
   display: grid;
   grid-area: other-operations;
@@ -74,7 +73,7 @@
     "1 2 3"
 }
 
-.math-operators {
+.mathOperators {
   color: #C8F152;
   display: grid;
   grid-area: math-operators;

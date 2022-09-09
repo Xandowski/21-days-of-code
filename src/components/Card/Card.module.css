@@ -1,3 +1,5 @@
+@import url(GlassmorphismCard.module.css);
+
 .card {
   width: 286px;
   height: 310px;
