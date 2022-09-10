@@ -54,6 +54,14 @@
       ]
     },
     {
+      "challengeId": "#07",
+      "challengeTitle": "Counter",
+      "challengeDescription": "Develop a counter.",
+      "challengeStack": [
+        "html5", "css3", "js"
+      ]
+    },
+    {
       "challengeId": "#08",
       "challengeTitle": "Theme Switcher",
       "challengeDescription": "Create a theme switch button.",

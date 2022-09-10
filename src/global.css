@@ -34,9 +34,11 @@ a {
 }
 
 button {
+  border: none;
   font-family: 'Noto sans', sans-serif;
   font-size: 1rem;
   cursor: pointer;
+  font-weight: bold;
 }
 
 body {

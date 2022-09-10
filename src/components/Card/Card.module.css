@@ -41,3 +41,24 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.buttonsContainer {
+  display: flex;
+  column-gap: 5px;
+}
+
+.startCount,
+.resetCount {
+  width: 60px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.startCount {
+  background: var(--secondary);
+  color: var(--primary-variant);
+}
+.resetCount {
+  background: var(--primary-variant);
+  color: var(--secondary);
+}
